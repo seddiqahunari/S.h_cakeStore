@@ -1,0 +1,54 @@
+body{
+    background-color: #0c243c;
+}
+.container
+{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+}
+header{
+    background-color: #fff;
+}
+nav{
+    text-align: right;
+    padding: 10px;
+}
+.banner{
+    background-image: url('../img/large/lemonCake900.jpg');
+    height: 400px;
+    background-size: cover;
+}
+
+main{
+    background-color: #fff;
+    padding:20px;
+}
+
+ .items{
+      display: flex;
+      gap:3px;
+    }
+.items img{
+    width: 100%;
+    height: auto;
+}
+table{
+    border-collapse: collapse;
+    height: auto;
+    width: 80%;
+
+}
+table, tr, th, td{
+    border: 1px solid #0c243c;
+}
+.prices{
+    padding: 30px;
+
+}
+
+footer{
+background-color: #e94d40;
+padding: 20px;
+text-align: center;
+}
